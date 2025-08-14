@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtc_list</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/product_list.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/font.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/footer.js"></script>
+</head>
+
+<body>
+  <header id="top">
+    <div id="top_menu">
+      <div class="top_bg"></div>
+      <h1><a href="index.html"><img src="images/casetify-logo.png" alt="casetify" height="40"></a></h1>
+      <div id="quick_menu">
+        <a href="menu.html" class="menu_icon"><img src="images/ICON/bars_b.png" alt="menu" height="30"></a>
+        <a href="#" class="profile_icon"><img src="images/ICON/profile_b.png" alt="profile" height="30"></a>
+        <a href="#" class="shopping_icon"><img src="images/ICON/shopping-bag_b.png" alt="shopping bag"
+            height="30"></a>
+        <a href="menu.html" class="search_icon"><img src="images/ICON/search_b.png" alt="search" height="30"></a>
+      </div> <!-- quick_menu -->
+    </div> <!-- top_menu -->
+  </header>
+
+  <div class="container">
+
+    <!-- 시리즈 슬라이더 -->
+    <div class="series-slider-wrap">
+    <div class="series-slider">
+      <div class="series-item">
+        <img src="images/case_tab1.png" alt="바운스 시리즈">
+        <div class="series-label">바운스 시리즈</div>
+      </div>
+      <div class="series-item">
+        <img src="images/case_tab2.png" alt="임팩트 시리즈">
+        <div class="series-label">임팩트 시리즈</div>
+      </div>
+      <div class="series-item">
+        <img src="images/case_tab3.png" alt="링 시리즈">
+        <div class="series-label">링 시리즈</div>
+      </div>
+      <div class="series-item">
+        <img src="images/case_tab4.png" alt="미러 시리즈">
+        <div class="series-label">미러 시리즈</div>
+      </div>
+    </div>
+    </div>
+
+    <!-- 필터 영역 -->
+    <div class="product_wrap">
+      <h3>&#8361;50,000 이상 구매 시 전 세계 무료배송 | <span class="cur_p c_b">지금 구매하기</span> | <span class="cur_p c_b">이용약관</span></h3>
+      <div class="filter-bar">
+        <div class="left_filter">
+          <p>기기 색상 선택하기</p>
+          <div class="custom-select">
+            <div class="selected-option">
+              <span class="selected-text">
+                <img src="images/ICON/blackcolor.png" alt="">
+              </span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <ul class="option-list">
+              <li><img src="images/ICON/blackcolor.png" alt=""></li>
+              <li><img src="images/ICON/whitecolor.png" alt=""></li>
+              <li><img src="images/ICON/bluecolor.png" alt=""></li>
+            </ul>
+          </div>
+        </div>
+        <button class="filter-btn">필터<img src="images/ICON/filter.png" alt="" width="20"></button>
+      </div>
+
+
+      <!-- 상품 리스트 -->
+      <div class="product-grid bounc active">
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_1.webp" alt="Metrics">
+          <div class="product-info">
+            <div class="product-name">Metrics <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 89,000</div>
+              <div class="product-desc">맥세이프 호환 미러...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_3.webp" alt="Daisy Checkers">
+          <div class="product-info">
+            <div class="product-name">Daisy Checkers <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 108,000</div>
+              <div class="product-desc">맥세이프 호환 임팩...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_2.webp" alt="Black Kingsnake">
+          <div class="product-info">
+            <div class="product-name">Black Kingsnake <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">  
+              <div class="product-price">₩ 102,000</div>
+              <div class="product-desc">바운스 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_4.webp" alt="Billiard">
+          <div class="product-info">
+            <div class="product-name">Billiard <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 83,000</div>
+              <div class="product-desc">임팩트 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_5.webp" alt="Warped Floral Check">
+          <div class="product-info">
+            <div class="product-name">Warped Floral Check <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 83,000</div>
+              <div class="product-desc">임팩트 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_6.webp" alt="Ditsy Daisies - White">
+          <div class="product-info">
+            <div class="product-name">Ditsy Daisies - White <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 89,000</div>
+              <div class="product-desc">맥세이프 임팩트</div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- product-grid -->
+      <div class="product-grid impect">
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_1.webp" alt="Metrics">
+          <div class="product-info">
+            <div class="product-name">Metrics <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 89,000</div>
+              <div class="product-desc">맥세이프 호환 미러...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_2.webp" alt="Black Kingsnake">
+          <div class="product-info">
+            <div class="product-name">Black Kingsnake <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">  
+              <div class="product-price">₩ 102,000</div>
+              <div class="product-desc">바운스 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_3.webp" alt="Daisy Checkers">
+          <div class="product-info">
+            <div class="product-name">Daisy Checkers <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 108,000</div>
+              <div class="product-desc">맥세이프 호환 임팩...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_4.webp" alt="Billiard">
+          <div class="product-info">
+            <div class="product-name">Billiard <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 83,000</div>
+              <div class="product-desc">임팩트 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_5.webp" alt="Warped Floral Check">
+          <div class="product-info">
+            <div class="product-name">Warped Floral Check <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 83,000</div>
+              <div class="product-desc">임팩트 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_6.webp" alt="Ditsy Daisies - White">
+          <div class="product-info">
+            <div class="product-name">Ditsy Daisies - White <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 89,000</div>
+              <div class="product-desc">맥세이프 임팩트</div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- product-grid -->
+      <div class="product-grid ring">
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_1.webp" alt="Metrics">
+          <div class="product-info">
+            <div class="product-name">Metrics <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 89,000</div>
+              <div class="product-desc">맥세이프 호환 미러...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_2.webp" alt="Black Kingsnake">
+          <div class="product-info">
+            <div class="product-name">Black Kingsnake <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">  
+              <div class="product-price">₩ 102,000</div>
+              <div class="product-desc">바운스 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_3.webp" alt="Daisy Checkers">
+          <div class="product-info">
+            <div class="product-name">Daisy Checkers <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 108,000</div>
+              <div class="product-desc">맥세이프 호환 임팩...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_4.webp" alt="Billiard">
+          <div class="product-info">
+            <div class="product-name">Billiard <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 83,000</div>
+              <div class="product-desc">임팩트 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_5.webp" alt="Warped Floral Check">
+          <div class="product-info">
+            <div class="product-name">Warped Floral Check <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 83,000</div>
+              <div class="product-desc">임팩트 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_6.webp" alt="Ditsy Daisies - White">
+          <div class="product-info">
+            <div class="product-name">Ditsy Daisies - White <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 89,000</div>
+              <div class="product-desc">맥세이프 임팩트</div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- product-grid -->
+      <div class="product-grid mirror">
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_1.webp" alt="Metrics">
+          <div class="product-info">
+            <div class="product-name">Metrics <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 89,000</div>
+              <div class="product-desc">맥세이프 호환 미러...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_2.webp" alt="Black Kingsnake">
+          <div class="product-info">
+            <div class="product-name">Black Kingsnake <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">  
+              <div class="product-price">₩ 102,000</div>
+              <div class="product-desc">바운스 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_3.webp" alt="Daisy Checkers">
+          <div class="product-info">
+            <div class="product-name">Daisy Checkers <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 108,000</div>
+              <div class="product-desc">맥세이프 호환 임팩...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_4.webp" alt="Billiard">
+          <div class="product-info">
+            <div class="product-name">Billiard <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 83,000</div>
+              <div class="product-desc">임팩트 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_5.webp" alt="Warped Floral Check">
+          <div class="product-info">
+            <div class="product-name">Warped Floral Check <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 83,000</div>
+              <div class="product-desc">임팩트 케이스</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img class="product-img" src="images/bounc_6.webp" alt="Ditsy Daisies - White">
+          <div class="product-info">
+            <div class="product-name">Ditsy Daisies - White <span class="star">★ 5.0</span></div>
+            <div class="info_bottom">
+              <div class="product-price">₩ 89,000</div>
+              <div class="product-desc">맥세이프 임팩트</div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- product-grid -->
+
+      <!-- 페이지네이션 -->
+      <div class="pagination">
+        <button>&lt;</button>
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>&gt;</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="tab7">
+    <div class="divline"></div>
+    <div class="sns_txt">
+      <h3>FOLLOW US!</h3>
+      <h4>@CASETiFY</h4>
+    </div>
+    <ul id="sns">
+      <li><i class="fab fa-instagram"></i><br>INSTAGRAM</li>
+      <li><i class="fab fa-facebook-f"></i><br>FACEBOOK</li>
+      <li><i class="fab fa-x-twitter"></i><br>X</li>
+      <li><i class="fab fa-pinterest-p"></i><br>PINTEREST</li>
+      <li><i class="fab fa-tiktok"></i><br>TIKTOK</li>
+    </ul> <!-- sns -->
+  </div> <!-- tab7 -->
+  <div id="footer">
+    <div id="warranty">
+      <h3><img src="images/ICON/icon_warranty.png" alt="">100% 만족 보장</h3>
+      <p>케이스티파이는 선정된 제품에 대해 구매 후 10일 이내<br>조건 없이 반품 및 교환, 6개월 제품 보증을 제공해 드립니다.<br>도움이 필요하시다면 <span
+          class="under_bold">연락하기</span> 또는 <span class="under_bold">더알아보기</span>를 클릭해 주세요.</p>
+    </div> <!-- warranty -->
+    <div id="foot_menu">
+      <ul>
+        <li>
+          MENU
+          <ul>
+            <li>로그인</li>
+            <li>NEW</li>
+            <li>BEST</li>
+            <li>SALE</li>
+            <li>SHOP</li>
+            <li>PROMOTION</li>
+            <li>ABOUT</li>
+            <li>COMMUNITY</li>
+          </ul>
+        </li>
+        <li>
+          기종
+          <ul>
+            <li>APPLE</li>
+            <li>삼성</li>
+            <li>ETC.</li>
+          </ul>
+        </li>
+        <li>
+          ABOUT CASETiFY
+          <ul>
+            <li>자주묻는 질문</li>
+            <li>직접 문의하기</li>
+            <li>브랜드 소개</li>
+            <li>언론 보도</li>
+            <li>채용정보</li>
+            <li>매장 방문하기</li>
+          </ul>
+        </li>
+        <li>문의하기</li>
+      </ul>
+    </div><!-- footmenu -->
+    <div>
+      <p>케이스티파이: 케이스타그램 리미티드(Casetify: Casetagram Limited)<br>케이스티파이 유한회사 (CASETiFY) | 대표: 응푸이순 웨슬리 (Wesley
+        Ng)<br>사업자등록번호: 580-88-02026 | 통신판매업 신고번호: 제 2021-서울강남-03049 호<br>주소: 서울특별시 강남구 선릉로 818 6층, 케이스티파이<br>CS Center:
+        hello@casetify.com<br>휴무: 토요일, 일요일, 공휴일 휴무</p>
+    </div>
+    <div id="copyright">
+      <p><span class="under_bold">개인정보처리방침</span> | <span class="under_bold">약관</span><br>Copyright&copy;2025 CASETiFY
+      </p>
+    </div>
+  </div> <!-- footer -->
+  <script src="js/PRODUCT_LIST.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+  a, ul, li {text-decoration: none; color: inherit;}
+
+  #top_menu {
+    background-color: #fff;
+  }
+
+  body{
+    padding-top: 70px;
+    background: url("../images/join_bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  #join_wrap {
+    height: 550px;
+  }
+
+  .signup-container {
+    max-width: 360px;
+    margin: 60px auto;
+    background: rgba(255 255 255 / 0.85);
+    border-radius: 12px;
+    padding: 24px 28px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+  }
+
+  .signup-container h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 4px;
+  }
+
+  .signup-container .subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    color: #6a5555;
+    margin-bottom: 24px;
+  }
+
+  label {
+    display: block;
+    font-size: 14px;
+    color: #3a2c2c;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  input::placeholder {
+    font-size: 14px;
+    color: #999;
+  }
+
+  .agreement {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 22px;
+  }
+
+  .agreement a {
+    color: #888;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  button.signup-btn {
+    width: 100%;
+    background-color: #0099ff;
+    border: none;
+    padding: 14px 0;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button.signup-btn:hover {
+    background-color: #007acc;
+  }
